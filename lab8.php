@@ -57,7 +57,7 @@
 						<select class="form-control w-auto d-inline-block mb-3" name="conversionunit">
 							<option value="--Select--"<?php if($conversionUnit == "--Select--") echo ' selected="selected"';?> hidden>--Select--</option>
 							<option value="celsius"<?php if($conversionUnit == "celsius") echo ' selected="selected"';?>>Celsius</option>
-							<option value="fahrenheit"<?php if($conversionUnit == "Fahrenheit") echo ' selected="selected"';?>>Fahrenheit</option>
+							<option value="fahrenheit"<?php if($conversionUnit == "fahrenheit") echo ' selected="selected"';?>>Fahrenheit</option>
 							<option value="kelvin"<?php if($conversionUnit == "kelvin") echo ' selected="selected"';?>>Kelvin</option>
 						</select>
 					</div>
